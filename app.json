@@ -18,6 +18,7 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "uy.diamecjs.pokedex",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -25,6 +26,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "01386ae7-0990-48b9-8d82-92d0ce16b311"
+      }
     }
   }
 }
